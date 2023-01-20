@@ -6,6 +6,7 @@ def greetings():
 
 # Define get choices function
 def get_choices():
+  greetings()
   player_choice = input("Enter a choice (rock, paper, scissors: ")
   options = ["rock", "paper", "scissors"]
   computer_choice = random.choice(options)
